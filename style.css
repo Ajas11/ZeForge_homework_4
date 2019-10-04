@@ -1,0 +1,149 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    background-color: brown;
+}
+header {
+    width: 960px;
+    height: 200px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.logo {
+    height: 150px;
+}
+.logo img {
+    height: 100px;
+    margin-top: 25px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    overflow: hidden;
+    }
+
+    .menu li {
+        float: left;
+    }
+    .menu li:hover {
+        border-right: 1px white solid;
+        border-left: 1px white solid;
+    }
+    
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        line-height: 5px;
+        padding: 25px 25px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .gor {
+        background-color: darkolivegreen;
+        width: 960px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+        .lev1 {
+          
+            height: 400px;
+            width: 320px;
+            position: absolute;
+        }
+        .lev1 img {
+            height: 200px;
+            margin-top: 130px;
+            margin-left: 60px;
+        }
+                              
+                            
+        .des1 {
+            
+            height: 400px;
+            width: 640px;
+            position: absolute;
+            right: 0;
+                      
+            
+                      
+                
+            }
+            .des1 p, .des1 h2 {
+                margin-left: 40px;
+                margin-right: 40px;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                                                
+            }
+            .des1 h2 {
+                margin-top: 200px;
+            }
+            .vmenu ul {
+                list-style-type: none;
+                margin-left: 40px;
+                margin-right: 70px;
+                }
+            
+                .vmenu li {
+                    overflow: hidden;
+                    border-bottom: 2px white solid;
+                    
+                }
+                
+                .vmenu li a {
+                    display: block;
+                    color: white;
+                    font-size: 18;
+                    line-height: 5px;
+                    padding: 25px 25px;
+                    text-decoration: none;
+                    font-family: Arial, Helvetica, sans-serif;
+                    
+                }
+                .vmenu li a:hover {
+                    
+                    color: black;
+                }
+    .don {
+        background-color: lightgray;
+        width: 960px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+        .lev2 {
+            height: 800px;
+            width: 320px;
+            position: absolute;
+            background-color: #888899;
+        }
+
+        .des2 {
+            height: 800px;
+            width: 640px;
+            position: absolute;
+            right: 0;
+        }
+        .des2 h2, .des2 p {
+            margin-left: 40px;
+            margin-right: 40px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+            .des2 h2 {
+                margin-top: 50px;
+            }
